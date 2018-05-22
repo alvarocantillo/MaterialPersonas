@@ -25,12 +25,12 @@
             app:contentScrim="?attr/colorPrimary">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/foto"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/images"
-                app:layout_collapseMode="pin"/>
+                app:layout_collapseMode="pin"
+                app:srcCompat="@drawable/images" />
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -168,15 +168,17 @@
             fab:fab_label="@string/modificar"
             app:fab_colorNormal="@color/colorAccent"
             app:fab_colorPressed="@color/colorAccent"/>
+
         <com.github.clans.fab.FloatingActionButton
             android:id="@+id/menu_eliminar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="eliminar"
             android:src="@android:drawable/ic_menu_delete"
-            fab:fab_size="mini"
-            fab:fab_label="@string/eliminar"
             app:fab_colorNormal="@color/colorAccent"
-            app:fab_colorPressed="@color/colorAccent"/>
+            app:fab_colorPressed="@color/colorAccent"
+            fab:fab_label="@string/eliminar"
+            fab:fab_size="mini" />
 
 
 
