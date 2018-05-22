@@ -16,4 +16,6 @@
     <string name="mensaje_guardado_exitoso">Persona guardada exitosamente!</string>
     <string name="informacion">INFORMACION</string>
     <string name="sexo">Sexo</string>
+    <string name="modificar">Modificar</string>
+    <string name="eliminar">Eliminar</string>
 </resources>
